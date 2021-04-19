@@ -1,77 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
-
-
-.home h1, h3  {
-  
- text-align: center;
-
-font-family: Oswald,sans-serif;
-font-weight: bald;
-width:96vw;
+*{
+  padding:0;
+  margin:0;
 }
-.home h1 {
-  font-size:300%;
-}
+body {
+  font-family: "Lato", sans-serif;
 
-
-.navbar ul a {
- font-size: 20px;
- font-family: Lato, sans-serif;
- color:#fff;
- border-radius: 5px;
- 
- 
 }
-.navbar ul a:hover { padding: 5px;
-  margin: 0 auto;
+#nav-bar {
+  position: sticky;
+  top:0;
+  z-index: 10;
 }
-.navbar ul li {
-  padding-left: 30px;
-  padding-right: 30px;
-  letter-spacing: 1px;
-  
+.navbar {
+  background-image: linear-gradient(to right,#000,#fff);
+  padding:0 !important;
   
 }
-
-.navbar-brand img {
- padding: 5px;
-  
-  border: 1px solid white;
- 
-  background-color: #fff;
-  border-radius: 5px;
-
-  
- 
-}
-
-
-
-
-
-
-
-  
-  
-
-.home{ 
-  background: url(https://www.99images.com/photos/wallpapers/girls/beauty-salonandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-pmwt8.jpg?v=1614869468) fixed;
-;
-background-position: center;
-background-size: cover;
-width:100vw;
-height:50vh;
-color:#fff;
-margin: 0;
-padding: 0;
-}
-
-.rect {
-  height: 200px ;
-  border: 2px solid #424242;
-  margin:20px;
+.navbar-brand img{
+  height:80px;
+  padding-left: 40px;
   
 }
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color:#fff !important;
+}
+.navbar-nav li a:hover{
+  background-color:#fff;
+  color:#000 !important;
+  border-radius: 5%;
+}
 
-
+#head {
+  background-image: url(https://www.99images.com/photos/wallpapers/girls/beauty-salonandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-pmwt8.jpg?v=1614869468);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color:#fff;
+  font-family: 'Oswald', sans-serif;
+}
  
