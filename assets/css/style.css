@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Lato", sans-serif;
+  width:100%;
 
 }
 #nav-bar {
@@ -26,22 +27,56 @@ body {
   padding: 0 10px;
 }
 .navbar-nav li a {
-  color:#fff !important;
+  color:#000!important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+  
 }
 .navbar-nav li a:hover{
-  background-color:#fff;
-  color:#000 !important;
+  background-color:#000;
+  color:#fff !important;
   border-radius: 5%;
 }
-
-#head {
-  background-image: url(https://www.99images.com/photos/wallpapers/girls/beauty-salonandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-pmwt8.jpg?v=1614869468);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  text-align: center;
-  color:#fff;
-  font-family: 'Oswald', sans-serif;
+.fa-cut {
+  color:#000;
+  font-size: 30px !important;
 }
- 
+.navbar-toggler {
+  outline: none !important;
+}
+
+#banner {
+
+  background-image: linear-gradient(to right,#000,#fff);
+  color: #fff;
+}
+  .title {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+#banner p {
+  font-size: 30px;
+}
+#about {
+  background: url(https://www.99images.com/photos/wallpapers/girls/beauty-salonandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-pmwt8.jpg?v=1614869468);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 600px;
+
+  color: #fff;
+  padding-top: 5%;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+#about img{
+  float: right;
+}
+#services {
+  background-image: linear-gradient(to right,#000,#fff);
+  color: #fff;
+
+}
