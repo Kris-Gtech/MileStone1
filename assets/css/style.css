@@ -6,21 +6,29 @@
 body {
   font-family: "Lato", sans-serif;
   width:100%;
+  background-color: linear-gradient(to right,#000,#4a4a4f);
 
+}
+body, html {
+  height: 100%;
 }
 #nav-bar {
   position: sticky;
   top:0;
   z-index: 10;
 }
+
+
 .navbar {
-  background-image: linear-gradient(to right,#000,#fff);
+  background-image: linear-gradient(to right,#000,#4a4a4f);
   padding:0 !important;
   
 }
 .navbar-brand img{
   height:80px;
+  width: 240px;
   padding-left: 40px;
+
   
 }
 .navbar-nav li {
@@ -28,15 +36,18 @@ body {
 }
 .navbar-nav li a {
   color:#000!important;
+  font-size:20px;
   font-weight: 600;
   float: right;
   text-align: left;
+  letter-spacing: 1px;
+  margin:0 10px;
   
 }
 .navbar-nav li a:hover{
   background-color:#000;
   color:#fff !important;
-  border-radius: 5%;
+  border-radius: 10%;
 }
 .fa-cut {
   color:#000;
@@ -45,38 +56,26 @@ body {
 .navbar-toggler {
   outline: none !important;
 }
-
-#banner {
-
-  background-image: linear-gradient(to right,#000,#fff);
-  color: #fff;
+/* end of navbar styling*/
+.hero-image {
+  height: 50%;
+  background-image: url(https://www.99images.com/photos/wallpapers/girls/beauty-salonandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-pmwt8.jpg?v=1614869468);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  position: relative; 
 }
-  .title {
-    font-size: 60px;
-    font-weight: 600;
-    letter-spacing: 2px;
-  }
-#banner p {
-  font-size: 30px;
-}
-#about {
-  background: url(https://www.99images.com/photos/wallpapers/girls/beauty-salonandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-pmwt8.jpg?v=1614869468);
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 600px;
 
-  color: #fff;
-  padding-top: 5%;
-  font-size: 20px;
-  font-weight: 600;
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-}
-#about img{
-  float: right;
-}
-#services {
-  background-image: linear-gradient(to right,#000,#fff);
-  color: #fff;
 
-}
+#video iframe {
+margin:0 50%;
+padding-top:30px;}
